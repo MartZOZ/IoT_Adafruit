@@ -6,11 +6,15 @@ Connect an adafruit dashboard to control an LED on your arduino board.
 
 Step-by-step
 
+Install PyFirmata, this requires pip to be installed. To install PyFirmata, open CMD and run "pip install Pyfirmata", this should run a quick install, some instances of python already come installed with pyfirmata.
+
 Connect your arduino board with an LED
 
-Upload Pyfirmata
+Download StandardFirmata.ino
 
-Download my python script 
+Upload the code to your arduino
+
+Download Adafruit.py
 
 Change the adafruit key to your own (the one in the script is old)
 
