@@ -4,7 +4,8 @@ import pyfirmata
 	
 run_count = 0
 ADAFRUIT_IO_USERNAME = "MartZOZ"
-ADAFRUIT_IO_KEY = "aio_SlEX11t0uBgqkAVWVdAz7iFhwD1P"
+ADAFRUIT_IO_KEY = "aio_MiRh54jyRgfsySEv6XAkdNX8qtQH"
+#Adafruit IO keys regenerate semi-regularly, make sure to check if it is active!
 
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
