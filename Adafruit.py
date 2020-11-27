@@ -20,12 +20,13 @@ try:
 	digital = aio.feeds('digital') #This requests the feed from the feed "digital"
 
 except RequestError:
-	feed = Feed(name='digital') #
+	feed = Feed(name='digital') 
 	digital = aio.create_feed(feed)
 
 while True:
 	print('Sending count:', run_count)
 	run_count += 1
+
 	aio.send_data('counter', run_count) #This checks and updates the counter value every time the code checks for an update from the "counter" feed
 
 	data = aio.receive(digital.key)
