@@ -16,7 +16,7 @@ Upload the code to your arduino
 
 Download Adafruit.py
 
-Change the adafruit key to your own (the one in the script is old)
+Change the adafruit key to your own (the one in the script will not work and is simply a placeholder)
 
 Create one or two blocks, one toggle, and another can be a value
 
