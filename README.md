@@ -25,3 +25,5 @@ rename the toggle block feed to "digital", and rename a value block to "counter"
 Run the python script
 
 if you've done everything correctly you should be able to control an LED with the toggle button on your dashboard :)
+
+You can use the "Mysql with adafruit (published).py" file I've released if you want to upload your logs to a mysql database.
